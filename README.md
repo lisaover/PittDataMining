@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# PittDataMining
+University of Pittsburgh Data Mining Course Spring 2020
 
-You can use the [editor on GitHub](https://github.com/lisaover/PittDataMining/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Library Data Project: Digital Humanities Topic Modeling
+<a href="https://lisaover.github.io/PittDataMining/" target="_blank">Access the project web page</a>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The Humanities Data Librarian for the University Library at the University of Pittsburgh, Terry Kapral, provided three data sets for an analysis of the digital collections in the Humanities department.
+This was an exploratory, unsupervised learning project. The high-level goal was to investigate which topics are present within the humanities digital collection, and how those topics vary over time. Specifically, Mrs. Kapral was interested in answers to the following questions about the data:
 
-### Markdown
+1. What are the latent topics across the digital items?
+2. What items are related by topic?
+3. How do topics change over time with respect to the time period covered by the items within each topic?
+4. Are there any problems with the data?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+These questions were answered through data exploration, including word embeddings and t-SNE plots, and topic modeling, using the unsupervised learn- ing algorithm, Latent Dirichlet Allocation (LDA). Data exploration revealed problems in the data, some of which were mitigated. The final LDA model revealed 19 latent topics from the titles and abstracts in the metadata for the 124,517 digitized items that had a title.
 
-```markdown
-Syntax highlighted code block
+## Python Lab
+In this python lab, four models were evaluated on surgical procedures data for procedures conducted between June 2017 and June 2018. The goal was to develop an algorithm to accurately predict a patient’s level of risk for a length of stay (LOS) greater than five days post-surgery. Please read the final essay, <em>essay_Python_lab.pdf</em>, for lab details.
 
-# Header 1
-## Header 2
-### Header 3
+## Homework 1 Concepts
+* Linear Regression and evaluation techniques
+* Logistic Regression and evaluation techniques
+* KNN and evaluation techniques
 
-- Bulleted
-- List
+## Homework 2 Concepts
+* Naive Bayes
+* Random Forests
+* Multinomial Logistic Regression
+* t-SNE
+* K-means clustering
+* Uniform manifold approximation projection
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lisaover/PittDataMining/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Homework 3 Concepts
+* XGBoost
+* LightGBM
+* CatBoost
+* Gridsearch techniques
+* LIME and Shapley Additive Explanations (SHAP)
